@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Temporary KakaoTalk QR placeholder">
+  <rect width="160" height="160" rx="8" fill="#fff"/>
+  <g fill="#111">
+    <path fill-rule="evenodd" d="M10 10h40v40H10zm8 8v24h24V18zM110 10h40v40h-40zm8 8v24h24V18zM10 110h40v40H10zm8 8v24h24v-24z"/>
+    <path d="M58 10h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm8 8h8v8h-8zm-40 8h8v8h-8zm16 0h8v8h-8zm16 8h8v8h-8zm16 0h8v8h-8zM58 42h8v8h-8zm16 0h8v8h-8zm8 8h8v8h-8zm16 0h8v8h-8zM10 58h8v8h-8zm16 0h8v8h-8zm24 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zM26 66h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm24 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zM10 82h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm32 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zM10 98h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm32 0h8v8h-8zm16 0h8v8h-8zM58 110h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm24 0h8v8h-8zM58 126h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zm24 0h8v8h-8zm16 0h8v8h-8zm16 0h8v8h-8zM58 142h8v8h-8zm16 0h8v8h-8zm8 0h8v8h-8zm24 0h8v8h-8z"/>
+  </g>
+  <circle cx="80" cy="80" r="18" fill="#fee500" stroke="#fff" stroke-width="3"/>
+  <text x="80" y="83.5" fill="#3b2a1a" font-family="Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle">TALK</text>
+</svg>

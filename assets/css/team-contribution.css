@@ -1,0 +1,25 @@
+.team-contribution-list {
+  display: grid;
+  gap: 0;
+  margin: 1.25rem 0 0
+}
+
+.team-contribution-list>div {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, .25)
+}
+
+.team-contribution-list dt {
+  font-weight: 700;
+  font-size: .9rem
+}
+
+.team-contribution-list dd {
+  margin: 0;
+  line-height: 1.8;
+  white-space: pre-line;
+  overflow-wrap: anywhere
+}
