@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: "Orbitron";
+  src: url("../fonts/orbitron-latin-700.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   --bg: #f4f5f7;
   --paper: #ffffff;
@@ -836,18 +844,13 @@ html.fullpage-scroll body.intro-active {
   gap: .75rem;
 }
 
-.section-kicker span {
-  min-width: 2rem;
-  color: var(--muted);
-  font-size: .7rem;
+.section-kicker p {
+  font-family: "Orbitron", Pretendard, sans-serif;
+  font-size: .875rem;
 }
 
 .section-kicker.light p {
   color: #9bb0ff;
-}
-
-.section-kicker.light span {
-  color: #858b96;
 }
 
 .about {
