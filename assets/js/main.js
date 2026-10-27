@@ -119,7 +119,7 @@ if (introScroll && introTarget) {
 }
 
 const pageSections = Array.from(document.querySelectorAll('#main > section'));
-const fullpageMedia = window.matchMedia('(min-width: 54.0625rem)');
+const fullpageMedia = window.matchMedia('(min-width: 54.0625rem) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)');
 const FULLPAGE_SCROLL_DURATION = 680;
 const NAVIGATION_SCROLL_DURATION = 920;
 

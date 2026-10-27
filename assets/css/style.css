@@ -46,7 +46,7 @@ body.menu-open {
   overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (min-width: 54.0625rem) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   html {
     scroll-snap-type: y proximity;
     scroll-padding-top: var(--header);
@@ -380,7 +380,7 @@ body.menu-open .top-button {
   transition: transform .35s var(--ease), opacity .35s ease, visibility .35s;
 }
 
-.js body.intro-active {
+html.fullpage-scroll body.intro-active {
   overflow: hidden;
 }
 

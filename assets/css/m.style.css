@@ -855,23 +855,40 @@
   }
 }
 
-/* 모바일 섹션 정렬 및 역량 카드 슬라이드 */
-@media (max-width: 54rem) {
+@media (max-width: 54rem), (hover: none), (pointer: coarse) {
   html {
-    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    scroll-snap-type: none;
     scroll-padding-top: var(--header);
   }
 
   #main>section {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    min-height: calc(100svh - var(--header));
+    height: auto;
+    min-height: 0;
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
   }
 
   #main>.intro-screen {
-    min-height: 100svh;
+    height: 100vh;
+    height: 100svh;
+    min-height: 0;
+    padding: var(--header) 0 calc(4.5rem + env(safe-area-inset-bottom, 0px));
+    background: #dff353;
   }
 
+  .intro-video {
+    object-fit: contain;
+    object-position: center;
+    background: inherit;
+  }
+
+  .intro-scroll {
+    bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (max-width: 54rem) {
   #main>.capabilities {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -944,7 +961,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   html {
-    scroll-snap-type: y proximity;
+    scroll-snap-type: none;
   }
 
   .capability-grid {
